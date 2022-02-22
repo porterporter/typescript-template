@@ -9,7 +9,6 @@
         "alwaysStrict": true,
         "declaration": true,
         "declarationMap": true,
-        "emitDecoratorMetadata": true,
         "esModuleInterop": true,
         "experimentalDecorators": true,
         "forceConsistentCasingInFileNames": true,
@@ -37,7 +36,7 @@
         "baseUrl": "src",
         "paths": {
             "@lib/*": [
-                "src/lib/*"
+                "lib/*"
             ],
             "@commands/*": [
                 "commands/*"
