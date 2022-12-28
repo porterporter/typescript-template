@@ -1,6 +1,6 @@
 {
   "name": "project-name",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "author": "juiceboy",
   "devDependencies": {
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "tsup ./src/",
-    "watch": "tsup ./src/ --watch --onSuccess 'node dist\\index.ts'",
+    "watch": "tsup ./src/ --watch --onSuccess \"node dist/index.js\"",
     "start": "node dist/index.js",
     "dev": "run-s build start",
     "lint": "eslint ."
