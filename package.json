@@ -19,7 +19,7 @@
     "dev": "run-s build start",
     "lint": "eslint ."
   },
-  "packageManager": "yarn@3.2.0",
+  "packageManager": "yarn@3.3.1",
   "dependencies": {
     "@sapphire/pieces": "^3.6.0",
     "@sapphire/utilities": "^3.11.0",
