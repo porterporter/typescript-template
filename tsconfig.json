@@ -38,15 +38,6 @@
             "@lib/*": [
                 "lib/*"
             ],
-            "@commands/*": [
-                "commands/*"
-            ],
-            "@preconditions/*": [
-                "preconditions/*"
-            ],
-            "@buttons/*": [
-                "buttonCommands/*"
-            ],
         }
     },
     "include": [
