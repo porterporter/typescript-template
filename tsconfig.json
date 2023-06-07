@@ -1,10 +1,6 @@
 {
     "compileOnSave": true,
     "compilerOptions": {
-        "incremental": true,
-        "tsBuildInfoFile": "dist/.tsbuildinfo",
-        "rootDir": "src",
-        "outDir": "dist",
         "allowSyntheticDefaultImports": true,
         "alwaysStrict": true,
         "declaration": true,
@@ -13,10 +9,8 @@
         "experimentalDecorators": true,
         "forceConsistentCasingInFileNames": true,
         "importHelpers": true,
-        "importsNotUsedAsValues": "error",
-        "lib": [
-            "ES2021"
-        ],
+        "incremental": true,
+        "lib": ["ESNext"],
         "module": "CommonJS",
         "moduleResolution": "Node",
         "newLine": "lf",
@@ -31,25 +25,12 @@
         "resolveJsonModule": true,
         "sourceMap": true,
         "strict": true,
-        "target": "ES2021",
+        "target": "ESNext",
         "useDefineForClassFields": true,
-        "baseUrl": "src",
-        "paths": {
-            "@lib/*": [
-                "lib/*"
-            ],
-            "@commands/*": [
-                "commands/*"
-            ],
-            "@preconditions/*": [
-                "preconditions/*"
-            ],
-            "@buttons/*": [
-                "buttonCommands/*"
-            ],
-        }
+
+        "rootDir": "src",
+        "outDir": "dist",
+        "tsBuildInfoFile": "dist/.tsbuildinfo"
     },
-    "include": [
-        "src"
-    ],
+    "include": ["src"],
 }
